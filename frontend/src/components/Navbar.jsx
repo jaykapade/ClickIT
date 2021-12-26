@@ -25,7 +25,7 @@ const Navbar = ({ searchTerm, setSearchTerm, user }) => {
         </Link>
         <Link
           to={`create-pin`}
-          className="bg-black text-white rounded-lg w-12 h-12 flex justify-center items-center"
+          className="bg-gray-200 text-gray-600 rounded-full w-14 h-12 flex justify-center items-center"
         >
           <IoIosAdd fontSize={21} />
         </Link>

@@ -44,10 +44,10 @@ const Home = () => {
             onClick={() => setToggleSidebar(!toggleSidebar)}
           />
           <Link to="/">
-            <img src={logo} alt="logo" className="w-28" />
+            <img src={logo} alt="logo" className="w-16" />
           </Link>
           <Link to={`user-profile/${user?._id}`}>
-            <img src={user?.image} alt="profile_image" className="w-28" />
+            <img src={user?.image} alt="profile_image" className="w-16" />
           </Link>
         </div>
         {toggleSidebar && (

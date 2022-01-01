@@ -105,6 +105,9 @@ const Pin = ({ pin: { postedBy, image, _id, destination, save } }) => {
                   href={destination}
                   target="blank"
                   rel="noreferrer"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                  }}
                   className="bg-white flex items-center gap-2 text-black font-bold p-1 pl-2 pr-2 rounded-3xl text-sm opacity-70 hover:opacity-100 hover:shadow-md"
                 >
                   <BsFillArrowUpRightCircleFill />{" "}
